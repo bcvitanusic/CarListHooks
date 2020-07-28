@@ -1,0 +1,84 @@
+.sidebar {
+  top: 6rem;
+  left: 0;
+  width: 20%;
+
+  z-index: 1;
+  border-right: 1px solid grey;
+  position: fixed;
+  margin-top: 1rem;
+}
+ul {
+  list-style: none;
+  padding: 0.5rem !important;
+}
+.sidebar-link {
+  display: block;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 0.5rem 1.5rem;
+  background: transparent;
+}
+.sidebar-link:hover {
+  padding: 0.5rem 1rem 0.5rem 2.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: #8aa1b1;
+}
+.sidebar-link:active {
+  color: red;
+}
+
+.add-new {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #9ac2c9;
+}
+
+.add-new:hover {
+  color: #2c60ae;
+}
+
+.form {
+  padding: 2rem;
+  text-align: center;
+  padding: 0 0;
+  display: block;
+}
+
+.edit-container {
+  margin: 2rem;
+}
+
+.edit {
+  text-align: center;
+  margin: 2rem 2rem;
+}
+
+.inputfield {
+  width: 30%;
+  padding: 0.3rem 0.5rem;
+  margin: 3px 0;
+}
+.addnew {
+  cursor: pointer;
+  background-color: #8aa1b1;
+  color: #fff;
+  width: 8.5rem;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 12px;
+  margin-left: 2rem;
+  text-transform: capitalize;
+}
+
+.addnew:hover {
+  background-color: #ee7674;
+  color: white;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.05);
+}
