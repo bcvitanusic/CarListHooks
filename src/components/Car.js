@@ -12,13 +12,15 @@ export default function Car({ car, editCar, deleteCar, cars }) {
           <li className="car-property">Price: {car.price} HRK</li>
         </ul>
         <div className="button-container">
-          <button className="button" onClick={() => editCar(car)}>
-            Edit
-          </button>
           {cars.length > 0 ? (
-            <button className="button" onClick={() => deleteCar(car.id)}>
-              Delete
-            </button>
+            <>
+              <button className="button" onClick={() => editCar(car)}>
+                Edit
+              </button>
+              <button className="button" onClick={() => deleteCar(car.id)}>
+                Delete
+              </button>
+            </>
           ) : (
             ""
           )}
